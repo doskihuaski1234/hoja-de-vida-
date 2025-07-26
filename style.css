@@ -1,0 +1,111 @@
+/* Estilo base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #010a14;
+  color: #c92020;
+}
+
+.navbar {
+  background-color: #c90f0f;
+  border-bottom: 2px solid #fca311;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #db0b0b !important;
+}
+
+.navbar-nav .nav-link {
+  color: #a1680d !important;
+  font-weight: 500;
+}
+
+.text-center {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+img.rounded-circle {
+  border: 5px solid #160642;
+  box-shadow: 0 0 20px #cc0616;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #271dad;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #f0e1e1;
+}
+
+main.container {
+  background-color: #1b263b;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(255, 0, 179, 0.15);
+  margin-bottom: 40px;
+}
+
+/* Formularios */
+form label {
+  color: #ffffff;
+}
+
+form input {
+  background-color: #3607a5a9;
+  border: 1px solid #0be60b;
+  color: white;
+}
+
+form input:focus {
+  border-color: #00f5d4;
+  box-shadow: 0 0 5px #00f5d4;
+}
+
+.btn-primary {
+  background-color: #00f5d4;
+  border-color: #00f5d4;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #0ff;
+  border-color: #0ff;
+}
+
+/* Footer */
+footer {
+  background-color: #281b0a;
+  color: #11fc1d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .text-center img {
+    width: 120px;
+  }
+}
+
+.seccion-cv {
+  transition: opacity 0.4s ease;
+}
+
+.seccion-cv.d-none {
+  display: none !important;
+  opacity: 0;
+}
+/* Estilo para secciones ocultas */
+.seccion-cv.d-block {
+  display: block !important;
+  opacity: 1;
+}  
